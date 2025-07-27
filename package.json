@@ -19,7 +19,7 @@
         "@dark-yasiya/yt-dl.js": "latest",
         "@google/generative-ai": "0.21.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "npm:@dark-yasiya/baileys-elite",
+        "@whiskeysockets/baileys": "latest",
         "api-dylux": "1.8.5",
         "axios": "^1.8.4",
         "caliph-api": "^1.0.1",
