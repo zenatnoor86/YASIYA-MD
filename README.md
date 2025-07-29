@@ -86,7 +86,7 @@
 <br><br>
 
 <!-- Secondary Action Buttons -->
-<a href="https://chat.whatsapp.com/FrFmln0ON9BAUqikbPQuo5" target="_blank">
+<a href="https://chat.whatsapp.com/HaAuKbsxqA69kSqzoa4Ekt" target="_blank">
   <img src="https://img.shields.io/badge/💬%20SUPPORT%20COMMUNITY-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=075E54" alt="Join Support">
 </a>
 &nbsp;&nbsp;
