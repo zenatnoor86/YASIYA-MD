@@ -1,11 +1,8 @@
 {
     "name": "yasiya-md",
     "version": "1.0.0",
-    "description": "Yasiya-MD is a powerful and user-friendly WhatsApp multi-device bot built with Baileys. 🤖",
-    "author": "Dark Yasiya",
-    "license": "MIT",
     "scripts": {
-        "start": "pm2 start yasiya-md.js --deep-monitoring --attach --name yasiya-md",
+        "start": "pm2 start yasiya_md.js --deep-monitoring --attach --name yasiya-md",
         "stop": "pm2 stop yasiya-md",
         "restart": "pm2 restart yasiya-md && pm2 logs",
         "stash": "git stash && git stash drop"
@@ -19,9 +16,10 @@
         "@dark-yasiya/yt-dl.js": "latest",
         "@google/generative-ai": "0.21.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "npm:@dark-yasiya/baileys",
+        "@whiskeysockets/baileys": "latest",
         "api-dylux": "1.8.5",
         "axios": "^1.8.4",
+        "baileys": "npm:@dark-yasiya/baileys",
         "caliph-api": "^1.0.1",
         "cheerio": "^1.0.0",
         "canvas": "3.1.0",
