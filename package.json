@@ -2,7 +2,7 @@
     "name": "yasiya-md",
     "version": "1.0.0",
     "scripts": {
-        "start": "pm2 start yasiya_md.js --deep-monitoring --attach --name yasiya-md",
+        "start": "pm2 start yasiya-md.js --deep-monitoring --attach --name yasiya-md",
         "stop": "pm2 stop yasiya-md",
         "restart": "pm2 restart yasiya-md && pm2 logs",
         "stash": "git stash && git stash drop"
