@@ -1,6 +1,6 @@
 {
     "name": "yasiya-md",
-    "version": "1.0.0",
+    "version": "1.0.04",
     "scripts": {
         "start": "pm2 start yasiya-md.js --deep-monitoring --attach --name yasiya-md",
         "stop": "pm2 stop yasiya-md",
@@ -19,7 +19,6 @@
         "@whiskeysockets/baileys": "latest",
         "api-dylux": "1.8.5",
         "axios": "^1.8.4",
-        "baileys": "npm:@dark-yasiya/baileys",
         "caliph-api": "^1.0.1",
         "cheerio": "^1.0.0",
         "canvas": "3.1.0",
