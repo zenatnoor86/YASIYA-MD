@@ -1,6 +1,9 @@
 {
     "name": "yasiya-md",
     "version": "1.0.04",
+    "description": "Yasiya-MD is a powerful and user-friendly WhatsApp multi-device bot built with Baileys. 🤖",
+    "author": "Dark Yasiya",
+    "license": "MIT",
     "scripts": {
         "start": "pm2 start yasiya-md.js --deep-monitoring --attach --name yasiya-md",
         "stop": "pm2 stop yasiya-md",
