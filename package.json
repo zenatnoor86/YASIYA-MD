@@ -33,7 +33,7 @@
         "emoji-regex": "latest",
         "express": "latest",
         "file_size_url": "1.0.4",
-        "file-type": "^21.0.0",
+        "file-type": "^16.5.4",
         "form-data": "^4.0.4",
         "fs-extra": "^11.3.1",
         "gemini-ai": "latest",
