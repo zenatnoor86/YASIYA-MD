@@ -5,10 +5,14 @@
     "author": "Dark Yasiya",
     "license": "MIT",
     "scripts": {
-        "start": "pm2 start yasiya-md.js --deep-monitoring --attach --name yasiya-md",
+        "start": "pm2 start yasiya-md-mizta.js --deep-monitoring --attach --name yasiya-md",
         "stop": "pm2 stop yasiya-md",
         "restart": "pm2 restart yasiya-md && pm2 logs",
         "stash": "git stash && git stash drop"
+    },
+    "engines": {
+        "node": "22.x",
+        "npm": "10.x"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
@@ -22,10 +26,12 @@
         "@vitalets/google-translate-api": "^9.2.1",
         "@whiskeysockets/baileys": "latest",
         "api-dylux": "latest",
+        "async-g-i-s": "^1.5.5",
         "axios": "^1.11.0",
         "caliph-api": "^1.0.1",
-        "cheerio": "^1.0.0",
         "canvas": "3.1.0",
+        "cheerio": "^1.0.0",
+        "compile-run": "^2.3.4",
         "denethdev-ytmp3": "latest",
         "dotenv": "^16.4.5",
         "emoji-regex": "latest",
@@ -34,6 +40,9 @@
         "file-type": "^21.0.0",
         "form-data": "^4.0.4",
         "fs-extra": "^11.3.1",
+        "gemini-ai": "latest",
+        "google-translate-api-x": "^10.7.2",
+        "googleapis": "^156.0.0",
         "javascript-obfuscator": "^4.1.1",
         "jimp": "0.16.13",
         "link-preview-js": "^3.1.0",
@@ -60,17 +69,12 @@
         "sharp": "^0.32.6",
         "sqlite3": "^5.1.7",
         "systeminformation": "^5.21.11",
+        "tempmail.lol": "^4.4.0",
         "tinyurl": "^1.1.7",
-        "translate-google": "1.5.0",
+        "translate-google": "^1.5.0",
         "util": "^0.12.4",
         "wa-sticker-formatter": "^4.4.4",
         "whois-json": "^2.0.4",
-        "xml2js": "^0.6.2",
-        "async-g-i-s": "^1.5.5",
-        "google-translate-api-x": "^10.7.2",
-        "gemini-ai": "latest",
-        "translate-google": "^1.5.0",
-        "tempmail.lol": "^4.4.0",
-        "compile-run": "^2.3.4"
+        "xml2js": "^0.6.2"
     }
 }
