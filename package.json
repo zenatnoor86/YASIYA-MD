@@ -10,10 +10,6 @@
         "restart": "pm2 restart yasiya-md && pm2 logs",
         "stash": "git stash && git stash drop"
     },
-    "engines": {
-        "node": "22.x",
-        "npm": "11.x"
-    },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@dark-yasiya/imgbb.js": "latest",
