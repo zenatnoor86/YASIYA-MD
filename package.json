@@ -12,7 +12,7 @@
     },
     "engines": {
         "node": "22.x",
-        "npm": "10.x"
+        "npm": "11.x"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
@@ -24,7 +24,7 @@
         "@google/generative-ai": "0.21.0",
         "@octokit/rest": "^22.0.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "github:YASIYA-MD/YasiyaMD-Baileys",
+        "@whiskeysockets/baileys": "latest",
         "api-dylux": "latest",
         "async-g-i-s": "^1.5.5",
         "axios": "^1.11.0",
